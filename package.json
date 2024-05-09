@@ -1,0 +1,26 @@
+{
+  "name": "issue-react-19-form-reset",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "react": "19.0.0-beta-6946ebe620-20240508",
+    "react-dom": "19.0.0-beta-6946ebe620-20240508"
+  },
+  "devDependencies": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
+  }
+}
